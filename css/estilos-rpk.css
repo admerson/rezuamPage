@@ -1,0 +1,10 @@
+#gtco-offcanvas{
+    background: rgba(0,0,0,.9); /*lightslategrey*/
+    
+}
+#gtco-offcanvas ul li a{
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid rgba(82,200,250,.1); /*blanchedalmond*/
+    color:#52C8FA;  /*lightsteelblue, 52C8FA*/
+}
