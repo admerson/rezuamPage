@@ -501,10 +501,11 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #gtco-about .img-shadow {
   position: relative;
-  background: #52C8FA;
+  background: #FF6347;
   width: 100%;
   float: left;
 }
+
 #gtco-about .img-shadow img {
   position: relative;
   top: -20px;
@@ -588,11 +589,12 @@ h1, h2, h3, h4, h5, h6, figure {
 #gtco-our-team .gtco-team-reverse .img-shadow,
 #gtco-our-team .gtco-team .img-shadow {
   position: relative;
-  background: #52C8FA;
+  background: #FF6347;
   width: 100%;
   float: left;
   margin-bottom: 30px;
 }
+
 #gtco-our-team .gtco-team-reverse .img-shadow img,
 #gtco-our-team .gtco-team .img-shadow img {
   position: relative;
@@ -1295,5 +1297,7 @@ form label {
 .js .animate-box {
   opacity: 0;
 }
-
+#baseinfo {
+  color: rgb(193, 199, 181);
+}
 /*# sourceMappingURL=style.css.map */
