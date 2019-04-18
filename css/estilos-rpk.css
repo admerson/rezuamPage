@@ -8,3 +8,19 @@
     border-bottom: 1px solid rgba(82,200,250,.1); /*blanchedalmond*/
     color:#52C8FA;  /*lightsteelblue, 52C8FA*/
 }
+
+
+
+/*COLORES DE LOS FONDOS DE LAS IMAGENES*/
+
+		
+#gtco-about .imagen-1{
+    background:#52C8FA;
+}
+
+div.imagen-2{
+    background:#FF6347;
+}
+div.imagen-3{
+    background: #FF6347;
+}
