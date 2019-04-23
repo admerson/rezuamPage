@@ -1300,4 +1300,32 @@ form label {
 #baseinfo {
   color: rgb(193, 199, 181);
 }
+.titulo_nivel_1 {
+  color: #52C8FA;
+  font-family: 'Baloo', cursive;
+  font-size:300%;
+}
+.titulo_nivel_2 {
+  color: #52C8FA;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size:200%;
+}
+.titulo_nivel_2_1 {
+  color: black;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size:200%;
+}
+.cuerpo1 {
+  font-family: 'Acme', sans-serif;
+  font-size:120%;
+  text-align : justify;
+  color:#909497    ;
+}
+.cuerpo2 {
+  font-family: 'Acme', sans-serif;
+  font-size:120%;
+  text-align : justify;
+  color: #212F3D  
+  ;
+}
 /*# sourceMappingURL=style.css.map */
