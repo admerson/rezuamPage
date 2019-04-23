@@ -24,3 +24,45 @@ div.imagen-2{
 div.imagen-3{
     background: #FF6347;
 }
+
+
+/*.---------------- ORDENANDO CÓDIGO POR SECCIONES --*/
+/*------sección INICIO */
+.incio {
+    color:#52C8FA;  /*Color de la presentación*/
+}
+
+/*---------- fin ----------*/
+
+
+/*------sección NOSOTROS */
+/*---------- fin ----------*/
+
+
+/*------seccion SERVICIOS */
+
+#gtco-practice-areas{
+    background: #52C8FA;
+    color:black;
+}
+.iconos{
+    /*color:darkslategrey*/
+}
+/*---------- fin ----------*/
+
+/*------sección NUESTRO EQUIPO */
+/*---------- fin ----------*/
+
+/*------Seccion CONTACTOS*/
+
+#gtco-contact{
+    background: #52C8FA;
+}
+/*---------- fin ----------*/
+
+/*------seccion FOOTER */
+#gtco-footer{
+    background: black;
+    color:whitesmoke;
+}
+/*---------- fin ----------*/
