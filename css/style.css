@@ -1118,13 +1118,13 @@ form label {
 }
 
 .btn-primary {
-  background: #52C8FA;
+  background: #C3C7CA    ;
   color: #fff;
-  border: 2px solid #52C8FA !important;
+  border: 2px solid #C3C7CA   !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #52C8FA !important;
-  border-color: #52C8FA !important;
+  border-color: #C3C7CA!important;
 }
 .btn-primary.btn-outline {
   background: transparent;
