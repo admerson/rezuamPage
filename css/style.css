@@ -1321,11 +1321,20 @@ form label {
   text-align : justify;
   color:#909497    ;
 }
+.cuerpo1_1 {
+  font-family: 'Acme', sans-serif;
+  font-size:120%;
+  text-align : justify;
+  color:#52C8FA    ;
+}
 .cuerpo2 {
   font-family: 'Acme', sans-serif;
   font-size:120%;
   text-align : justify;
   color: #212F3D  
   ;
+}
+.coloricono {
+  color: #FF6347;
 }
 /*# sourceMappingURL=style.css.map */
