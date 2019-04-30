@@ -728,7 +728,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .gtco-contact-info ul li:before {
-  color: #52C8FA;
+  color: #FF6347;
   position: absolute;
   left: 0;
   top: .05em;
@@ -1334,7 +1334,7 @@ form label {
   color: #212F3D  
   ;
 }
-.coloricono {
+.coloricono{
   color: #FF6347;
 }
 /*# sourceMappingURL=style.css.map */
