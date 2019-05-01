@@ -728,7 +728,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .gtco-contact-info ul li:before {
-  color: #FF6347;
+  color: rgb(15, 189, 107);
   position: absolute;
   left: 0;
   top: .05em;
@@ -1118,13 +1118,13 @@ form label {
 }
 
 .btn-primary {
-  background: #FF6347    ;
+  background: rgb(15, 189, 107)    ;
   color: #fff;
-  border: 2px solid #FF6347   !important;
+  border: 2px solid rgb(15, 189, 107)   !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #52C8FA !important;
-  border-color: #FF6347!important;
+  border-color: rgb(15, 189, 107)!important;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1335,6 +1335,15 @@ form label {
   ;
 }
 .coloricono{
-  color: #FF6347;
+  color: rgba(12, 224, 125, 0.993);
+
+}
+.coloricono1{
+  color: rgb(15, 189, 107);
+
+}
+.rezuamimg{
+  max-width: 50%;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */
