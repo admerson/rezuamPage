@@ -12,8 +12,8 @@
     <!-- FONT AWESOME-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <!-- css propios -->
-
+    <!-- css propios 
+    <link rel="stylesheet" href="css/style.css">-->
 
     <style>
     
@@ -23,7 +23,7 @@
         }
 
         .navbar{
-            border-bottom: #52C8FA 3px solid;
+            border-bottom: rgba(12, 224, 125, 0.993) 3px solid;
             opacity: .7;
         }
 
@@ -41,26 +41,26 @@
         }
 
         .card-body{
-            background-color:brown;
+            background-color:rgba(12, 224, 125, 0.993);
         }
 
         .card{
             border: none;
-            border-top: 3px solid #52C8FA;
+            border-top: 3px solid rgba(12, 224, 125, 0.993);
             box-shadow: 10px 5px 5px black;
         }
 
         .submit-btn1:hover{
-            background: rgba(102, 23, 23, 0.589);
-            border: 1px solid rgba(102, 23, 23, 0.589);
+            background: #52C8FA;
+            border: 1px solid #52C8FA;
             color:white;
         }
 
         .dark-overlay{
-            background-color: rgba(0, 0, 0, .8);
+            background-color: rgba(0, 0, 0, 0.7);
             width: 100%;
             min-height: 100vh;
-
+            
             padding-bottom: 15px;
         }
 
@@ -69,11 +69,16 @@
         }
 
         .secction-rezuam{
-            background: rgba(32, 69, 85, 0.432);
+            background-color: rgba(0, 0, 0, .6);
            
+ 
         }
-    </style>
+        .rezuamimg{
+        max-width: 15%;
+        height: auto;
+        }
 
+    </style>
 </head>
 <body>
     
@@ -89,7 +94,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="#work-section" class="nav-link"> <i class="fas fa-arrow-left"></i> Return</a>
+                    <a href="index.html" class="nav-link"> <i class="fas fa-arrow-left"></i> Volver</a>
                 </li>
             </ul>
             </div>
@@ -113,7 +118,7 @@
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="p-4">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, vero! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, repellendus.</p>
+                                    <p>Comodidad</p>
                                 </div>
                             </div>
 
@@ -122,7 +127,7 @@
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="p-4">
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, animi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, repellendus.</p>
+                                    <p>Creatividad</p>
                                 </div>
                             </div>
 
@@ -131,17 +136,39 @@
                                     <i class="fas fa-certificate"></i>
                                 </div>
                                 <div class="p-4">
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, repellendus.</p>
+                                    <p>Experiencia</p>
                                 </div>
                             </div>
+                            <div class="d-flex flex-row">
+                                    <div class="pr-1 pt-4">
+                                        <i class="fas fa-certificate"></i>
+                                    </div>
+                                    <div class="p-4">
+                                        <p>Trabajo en equipo</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                        <div class="pr-1 pt-4">
+                                            <i class="fas fa-certificate"></i>
+                                        </div>
+                                        <div class="p-4">
+                                            <p>Aprendizaje constante</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                            
+                                            <div class="p-4">
+                                                <p>Son unos cuantos de los muchos valores que obtendrás.........</p>
+                                            </div>
+                                        </div>
 
                         </div>
 
                         <div class="col-sm-12 col-lg-5">
                             <div class="card text-center">
                                 <div class="card-body">
-                                    <h1>Lorem, ipsum.</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet.</p>
+                                    <h1>Ven creceremos juntos</h1>
+                                    <p>Estas a un paso de tu éxito</p>
                                     <form action="">
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-lg" placeholder="E-mail">
@@ -173,17 +200,17 @@
 
     <section class="secction-rezuam">
         <div class="container">
-            <div class="row">
+            <div class="row ">
                 <div class="text-center p-5">
-                  <img src="images/logo.png" alt="">  
-                  <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, nisi aliquam? Quaerat aliquam blanditiis laboriosam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint quidem labore itaque doloribus neque dolorum.</p>
+                  <img src="images/logo empresa solo letra.png" class="rezuamimg">  
+                  <!--<p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, nisi aliquam? Quaerat aliquam blanditiis laboriosam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint quidem labore itaque doloribus neque dolorum.</p>-->
                 </div>
             </div>
         </div>
     </section>
 
 
-    <footer class="bg-dark py-4">
+    <!--<footer class="bg-dark py-4">
         <nav class="container text-center">
             <p class="text-footer"> copyright &copy rezuam 2019</p>
             <div class="text-right">
@@ -194,7 +221,7 @@
             </div>
                 
         </nav>
-    </footer>
+    </footer>-->
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
