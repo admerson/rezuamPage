@@ -728,7 +728,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .gtco-contact-info ul li:before {
-  color: rgb(15, 189, 107);
+  color: rgb(252, 86, 86);
   position: absolute;
   left: 0;
   top: .05em;
@@ -1118,13 +1118,13 @@ form label {
 }
 
 .btn-primary {
-  background: rgb(15, 189, 107)    ;
+  background: rgb(252, 86, 86)    ;
   color: #fff;
-  border: 2px solid rgb(15, 189, 107)   !important;
+  border: 2px solid rgb(252, 86, 86)   !important;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #52C8FA !important;
-  border-color: rgb(15, 189, 107)!important;
+  border-color: rgb(252, 86, 86)!important;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1312,7 +1312,7 @@ form label {
 }
 .titulo_nivel_2_1 {
   color: black;
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Baloo', cursive;
   font-size:200%;
 }
 .cuerpo1 {
@@ -1331,15 +1331,16 @@ form label {
   font-family: 'Acme', sans-serif;
   font-size:120%;
   text-align : justify;
-  color: #212F3D  
+  color: #212F3D
   ;
 }
 .coloricono{
-  color: rgba(12, 224, 125, 0.993);
-
+  color: rgb(252, 86, 86);
+  -webkit-text-stroke: 1px rgba(128, 128, 128, 0.493);
 }
 .coloricono1{
-  color: rgb(15, 189, 107);
+  color: rgb(252, 86, 86);/*rgba(128, 128, 128, 0.493)*/
+  -webkit-text-stroke: 1px black;
 
 }
 .rezuamimg{

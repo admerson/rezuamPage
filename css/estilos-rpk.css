@@ -19,10 +19,10 @@
 }
 
 div.imagen-2{
-    background:rgba(12, 224, 125, 0.993);
+    background: rgba(128, 128, 128, 0.493);
 }
 div.imagen-3{
-    background: rgba(12, 224, 125, 0.993);
+    background: rgba(128, 128, 128, 0.493); /*rgba(12, 224, 125, 0.993)*/
 }
 
 
